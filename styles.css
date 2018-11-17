@@ -1,0 +1,15 @@
+h1, h2 {
+    text-align: center;
+}
+
+.title {
+    background-color: deepskyblue;
+}
+
+.subtitle {
+    background-color: rgb(71, 123, 168);
+}
+
+.container {
+    background-color: orangered; 
+}
