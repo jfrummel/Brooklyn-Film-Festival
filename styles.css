@@ -1,6 +1,8 @@
 h1, h2 {
     text-align: center;
+    margin: 0;
 }
+
 
 .title {
     background-color: deepskyblue;
@@ -10,8 +12,12 @@ h1, h2 {
     background-color: rgb(71, 123, 168);
 }
 
-.container-fluid {
+.films {
     background-color: orangered; 
+}
+
+.register {
+    background-color: azure;
 }
 
 h3 {
@@ -29,3 +35,4 @@ body {
 .movieTitle {
     font-style: italic;
 }
+
