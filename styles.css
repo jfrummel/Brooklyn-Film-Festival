@@ -32,8 +32,8 @@ body {
   }
   
   .form-row {
-    width: 350px;
-    padding-right: 100px
+    width: 600px;
+    
   }
   
   .filmText {
@@ -45,16 +45,18 @@ body {
   .map {
     padding-top: 60px;
   }
+
+  .form-row {
+      margin-bottom: 5px;
+  }
   
 
   
   .registration {
-      padding-left: 35%;
+    margin-left: 8%; 
   }
 
   #btnSubmit {
-      display: block;
-      align-self: center;
-      margin-left: 65px;
+      margin-left: 40%;
   }
 
