@@ -1,38 +1,59 @@
-h1, h2 {
-    text-align: center;
-    margin: 0;
-}
-
-
-.title {
-    background-color: deepskyblue;
-}
-
-.subtitle {
-    background-color: rgb(71, 123, 168);
-}
-
-.films {
-    background-color: orangered; 
-}
-
-.register {
-    background-color: azure;
-}
-
-h3 {
-    margin-left: 30%;
-}
-
-li {
-    font-size: 1.5em;
-}
-
 body {
-    font-family: 'Lora', serif;
-}
-
-.movieTitle {
-    font-style: italic;
-}
+    background-image: url('https://cdn.wallpapersafari.com/0/14/7ItidJ.jpg');
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+  
+  #mainPic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+  }
+  
+  
+  h1, h2 {
+      text-align: center;
+  }
+  
+  #filmBox {
+     text-align: center;
+  }
+  
+  #register, #registerText, #subtitle {
+    text-align: center;
+  }
+  
+  .movieTitle {
+      font-style: italic;
+  }
+  
+  p, li {
+    font-size: 20px;
+  }
+  
+  .form-row {
+    width: 350px;
+    padding-right: 100px
+  }
+  
+  .filmText {
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+  }
+  .map {
+    padding-top: 60px;
+  }
+  
+  .btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  form {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
 

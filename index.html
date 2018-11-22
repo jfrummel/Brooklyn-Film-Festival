@@ -13,46 +13,71 @@
 
 </head>
 
-<body class:"m-0 p-0">
+<body>
     <div class="title">
-        <h1>Welcome to the Brooklyn Outdoor Film Festival</h1>
+      <h1>Welcome to the Brooklyn Outdoor Film Festival</h1><br/>
+      <p id="subtitle">August 5th through 8th at Brooklyn Bridge Park</p>
     </div>
-    <div class="subtitle">
-        <h2>August 5th through 8th, 6pm to 12am</h2>
+    <div class="container mb-5">
+      <img id="mainPic" src="http://brooklynbuzz.com/wp-content/uploads/2014/07/14cb3f05883027c9072837e1a4694e44.jpg" height="70%" width="90%">
     </div>
-    <div class="container-fluid films">
-        <div class="row">
-            <div class="col col-lg-6">
-                <h3>Films</h3>
-                <img class="theater mx-auto" src="https://www.parisianist.com/assets/img/articles/outdoor-movie-theater-2015/en/la-villette-outdoor-movie-theater-1.jpg"
-                    alt="Outside Movie" height="75%" width="75%">
-            </div>
-            <div class="col col-lg-6">
-                <ul class="pt-3">
-                    <li>August 5
-                        <p class="movieTitle">Lord of The Rings: The Fellowship of the Ring</p>
-                    </li>
-                    <li>August 6
-                        <p class="movieTitle">Raiders of the Lost Ark</p>
-                    </li>
-                    <li>August 7
-                        <p class="movieTitle">Star Wars: A New Hope</p>
-                    </li>
-                    <li>August 8
-                        <p class="movieTitle">The Hobbit</p>
-                    </li>
-                </ul>
-            </div>
+    <div class="container mb-5">
+      <h3 id="filmBox">Films</h3><br/>
+      <div class="row">
+        <div class="col col-sm-6 films ">
+          <p class='filmText text-center'>All films start at 6pm in the beautiful Brooklyn Bridge Park</p>
+          <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.839157445562!2d-73.99956638508961!3d40.699539879333315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a46a369a18d%3A0xa109779d5185c305!2sBrooklyn+Bridge+Park!5e0!3m2!1sen!2sus!4v1542845953112"
+            width="95%" height="95%" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
-    </div>
-    <div class="container-fluid register">
-        <div class="row">
-            <div class="col-lg-4">
-                <h3>Preregistration</h3>
-            </div>
-            <div class="col-lg-8"></div>
+        <div class="col col-sm-6">
+          <ul class="pt-0">
+            <li>August 5
+              <p class="movieTitle">Lord of The Rings: The Fellowship of the Ring</p>
+            </li>
+            <li>August 6
+              <p class="movieTitle">Raiders of the Lost Ark</p>
+            </li>
+            <li>August 7
+              <p class="movieTitle">Star Wars: A New Hope</p>
+            </li>
+            <li>August 8
+              <p class="movieTitle">The Hobbit</p>
+            </li>
+          </ul>
         </div>
+      </div>
     </div>
+    <div class="container register">
+      <div class="row">
+        <div class="col-sm-12">
+          <h3 id="register">Registration</h3>
+          <p id="registerText">Please Register by August 1st</p>
+          <form class="center">
+            <div class="form-row">
+              <label>First Name</label>
+              <input type="text" class="form-control" id="first-name" placeholder="First Name">
+            </div>
+            <div class="form-row">
+              <label>Last Name</label>
+              <input type="text" class="form-control" id="last-name" placeholder="Last Name">
+            </div>
+            <div class="form-row">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+  
+            </div>
+            <div class="form-row">
+              <label>Number Attending</label>
+              <input type="text" class="form-control" id="group-size" placeholder="Enter Number">
+            </div>
+  
+            <button type="submit" class="btn btn-primary mt-2">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  
+  </body>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
