@@ -1,62 +1,59 @@
 body {
-    background-image: url('https://cdn.wallpapersafari.com/0/14/7ItidJ.jpg');
-    font-family: "Comic Sans MS", cursive, sans-serif;
-  }
-  
-  #mainPic {
-    display: block;
+  background-image: url(https://cdn.wallpapersafari.com/0/14/7ItidJ.jpg);
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+
+.dates {
+  padding-top: 12px;
+}
+
+.nav-bar {
+  background-color: black;
+}
+
+.card-img-top {
+  height: 300px;
+}
+
+.dates {
+  background-color: #7eccb8;
+}
+
+.nav-link, h2 {
+  color: white;
+}
+
+h5 {
+  font-weight: bold;
+}
+
+header, h3 {
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+
+.main-pic {
+  background-image: url("http://brooklynbuzz.com/wp-content/uploads/2014/07/14cb3f05883027c9072837e1a4694e44.jpg");
+  height: 350px;
+  background-size: cover;
+}
+
+.about-text, .news-text {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media only screen and (max-width : 767px)
+  { .card {display: block;
     margin-left: auto;
-    margin-right: auto;
-    border-radius: 20px;
-  }
-  
-  
-  h1, h2 {
-      text-align: center;
-  }
-  
-  #filmBox {
-     text-align: center;
-  }
-  
-  #register, #registerText, #subtitle {
-    text-align: center;
-  }
-  
-  .movieTitle {
-      font-style: italic;
-  }
-  
-  p, li {
-    font-size: 20px;
-  }
-  
-  .form-row {
-    width: 600px;
-    
-  }
-  
-  .filmText {
-    margin: auto;
-    position: absolute;
-    top: 0; left: 0; bottom: 0; right: 0;
-  }
-
-  .map {
-    padding-top: 60px;
-  }
-
-  .form-row {
-      margin-bottom: 5px;
-  }
-  
-
-  
-  .registration {
-    margin-left: 8%; 
-  }
-
-  #btnSubmit {
-      margin-left: 40%;
-  }
+    margin-right: auto}}
 
